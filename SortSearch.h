@@ -9,3 +9,9 @@
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
 **        Date: 09 April 26
 ** -------------------------------------------------------------------------*/
+
+#pragma once
+
+void selection_sort(int* values, int size);
+void binary_search(int* values, int key, int size);
+bool binary_search_recursive(int* values, int key, int start, int end);
