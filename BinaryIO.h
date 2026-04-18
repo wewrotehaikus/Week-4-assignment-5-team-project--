@@ -9,3 +9,20 @@
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
 **        Date: 09 April 26
 ** -------------------------------------------------------------------------*/
+
+#pragma once
+#include <string>
+
+void writeBinary(std::string filename, int* values, int length);
+
+class BinaryReader {
+private:
+    int* data;
+    int size;
+public:
+    BinaryReader(std::string filename);
+    ~BinaryReader();
+    int* getValues();
+    int getSize();
+    void readValues(std::string filename);
+};
