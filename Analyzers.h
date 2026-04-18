@@ -12,6 +12,7 @@
 
 #pragma once
 #include <string>
+#include "SortSearch.h"
 
 class Analyzer
 {
