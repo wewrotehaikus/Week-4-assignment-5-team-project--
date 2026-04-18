@@ -7,7 +7,7 @@
 **        File: SortSearch.cpp
 ** Description: Implements the selection_sort function to sort an array of integers and the binary_search functions to efficiently search for a key in a sorted array.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
-**        Date: 09 April 26
+**        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 
 #include "SortSearch.h"

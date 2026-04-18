@@ -7,7 +7,7 @@
 **        File: BinaryIO.h
 ** Description: Defines BinaryReader class for reading integers from a binary file and a function for writing integers to a binary file.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
-**        Date: 09 April 26
+**        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 
 #pragma once
