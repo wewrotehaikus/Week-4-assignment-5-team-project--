@@ -5,13 +5,13 @@
 **       Class: CSC 252 - Programming in C++
 **  Assignment: Assignment 5
 **        File: SortSearch.h
-** Description: 
+** Description: A header file declaring the functions for performing selection sorting and recursive binary searching on an array of integers.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
 **        Date: 09 April 26
 ** -------------------------------------------------------------------------*/
 
 #pragma once
 
-void selection_sort(int* values, int size);
-bool binary_search(int* values, int key, int size);
-bool binary_search_recursive(int* values, int key, int start, int end);
+void selection_sort(int *values, int size);
+bool binary_search(int *values, int key, int size);
+bool binary_search_recursive(int *values, int key, int start, int end);
