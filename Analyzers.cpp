@@ -5,7 +5,7 @@
 **       Class: CSC 252 - Programming in C++
 **  Assignment: Assignment 5
 **        File: Analyzers.cpp
-** Description: Contains the core logive for calculating results like mean, median, mode, and identifies gaps or repetitions in the data for the various Analyzer subclasses.
+** Description: Contains the core logic for calculating results like mean, median, mode, and identifies gaps or repetitions in the data for the various Analyzer subclasses.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
