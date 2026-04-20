@@ -1,0 +1,97 @@
+============================================================
+PROJECT: CSC-252 Assignment 5 - Group Project
+GROUP: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
+DATE: 25 April 2026
+============================================================
+
+1. PROGRAM OVERVIEW
+-------------------
+The program generates a binary file of 500 random integers (0-999), 
+reads that file back into memory, sorts the data using Selection Sort, 
+and performs four types of analysis: Search, Statistics, Duplicates, 
+and Missing Values.
+
+
+2. DATA INPUT/OUTPUT (BinaryIO)
+-------------------------------
+ALGORITHM WriteBinary:
+    Input: Filename, Data Array, Length
+    Open file for writing in binary mode
+    Transfer raw bytes from array to file
+    Close file
+
+CLASS BinaryReader:
+    CONSTRUCTOR(filename):
+        Open file in binary mode
+        Calculate size based on byte count (total bytes / 4)
+        Allocate dynamic memory for an integer array
+        Read entire file into the array
+        Close file
+
+
+3. SORTING & SEARCHING (SortSearch)
+-----------------------------------
+ALGORITHM SelectionSort:
+    Input: Array, Size
+    For i from 0 to Size - 2:
+        Find the index of the smallest element from i to Size - 1
+        Swap the smallest element with the element at index i
+
+ALGORITHM BinarySearchRecursive:
+    Input: Array, Target, StartIndex, EndIndex
+    If Start > End: Return False
+    Mid = (Start + End) / 2
+    If Array[Mid] == Target: Return True
+    Else If Array[Mid] > Target: 
+        Return BinarySearchRecursive (left half)
+    Else: 
+        Return BinarySearchRecursive (right half)
+
+
+4. ANALYZERS (Inherited Logic)
+------------------------------
+CLASS StatisticsAnalyser:
+    Input: Sorted Array
+    Algorithm:
+        Min = First element
+        Max = Last element
+        Median = Middle value (or average of two middle values)
+        Mode = Walk through array, count consecutive identical values, 
+               track the one with the highest frequency
+
+CLASS MissingAnalyser:
+    Input: Sorted Array
+    Algorithm:
+        Count = 0
+        For i from 0 to 999:
+            If BinarySearch(Array, i) is False:
+                Increment Count
+        Return Count
+
+CLASS DuplicatesAnalyser:
+    Input: Sorted Array
+    Algorithm:
+        Count = 0
+        For i from 1 to Size - 1:
+            If Array[i] == Array[i-1]:
+                Increment Count
+                Skip past any additional identical values
+        Return Count
+
+
+5. MAIN EXECUTION FLOW (main)
+-----------------------------
+START
+    Set Filename = "data.bin"
+    Call WriteBinary with 500 random integers
+    
+    Initialize BinaryReader(Filename)
+    Get DataArray and Size from Reader
+    
+    Execute SearchAnalyzer (100 random searches)
+    Execute StatisticsAnalyser (Min, Max, Median, Mode)
+    Execute MissingAnalyser (0-999 coverage)
+    Execute DuplicatesAnalyser (Count recurring values)
+    
+    Display all analysis results to console
+END
