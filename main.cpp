@@ -7,6 +7,7 @@
 **        File: main.cpp
 ** Description: The entry point of the program. It generates random test data, writes it to a binary file, reads it back, and runs various analyses on the data using different Analyzer classes.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
+** Author of this section: Karon Eley
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 
