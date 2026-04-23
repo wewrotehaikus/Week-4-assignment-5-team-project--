@@ -7,6 +7,7 @@
 **        File: Analyzers.cpp
 ** Description: Contains the core logic for calculating results like mean, median, mode, and identifies gaps or repetitions in the data for the various Analyzer subclasses.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
+** Author of this section: Andre Gonzalez
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 
