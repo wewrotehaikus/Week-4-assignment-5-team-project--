@@ -7,7 +7,7 @@
 **        File: SortSearch.h
 ** Description: A header file declaring the functions for performing selection sorting and recursive binary searching on an array of integers.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson 
-** Author of this section: Robert Wilson
+**      Author of this section: Robert Wilson
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 

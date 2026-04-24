@@ -7,7 +7,7 @@
 **        File: Analyzers.h
 ** Description: Defines the base Analyzer class and its specialized subclasses for searching, statistics, duplicates, and missing value detection.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
-** Author of this section: Andre Gonzalez
+**      Author of this section: Andre Gonzalez
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 
