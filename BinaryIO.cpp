@@ -7,6 +7,7 @@
 **        File: BinaryIO.cpp
 ** Description: Handles  opening streams, calculating file sizes, and reading/writing integer data to and from binary files for the BinaryReader class and writeBinary function.
 **      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
+**      Author of this section: Karon Eley
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 

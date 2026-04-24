@@ -6,7 +6,8 @@
 **  Assignment: Assignment 5
 **        File: BinaryIO.h
 ** Description: Defines BinaryReader class for reading integers from a binary file and a function for writing integers to a binary file.
-**      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson
+**      Author: Karon Eley, Andre Gonzalez, Calvin Hart, Robert Wilson 
+**      Author of this section: Calvin Hart
 **        Date: 25 April 2026
 ** -------------------------------------------------------------------------*/
 
